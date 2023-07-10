@@ -1,0 +1,26 @@
+.header .logoysecciones  a:link, a:visited {
+    text-decoration: none;    
+}
+.logoysecciones {
+    box-shadow: 3px 5px 5px 0px #ccc;
+-webkit-box-shadow: 3px 5px 5px 0px #ccc;
+-moz-box-shadow: 3px 5px 5px 0px #ccc;
+    padding: 1rem;
+    /* border-bottom: solid 1px black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoysecciones img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.logoysecciones a  {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
