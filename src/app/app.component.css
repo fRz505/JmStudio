@@ -36,7 +36,20 @@
     display: flex;
 }
 
+.titulo-tratamiento {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    font-family: 'Belanosima', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .tituloproducto h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
     font-family: 'Belanosima', sans-serif;
     margin-top: 3rem;
     margin-bottom: 50px;
@@ -86,7 +99,7 @@
 }
 
 #sobremi .sobremi .titulo-seccion {
-    font-size: 22px;
+    font-size: 27px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
@@ -95,7 +108,7 @@
 }
 
 #sobremi .sobremi h2 {
-    font-size: 34px;
+    font-size: 25px;
     font-weight: bold;
     margin: 20px 0;
     letter-spacing: 2px;
@@ -109,7 +122,7 @@
     letter-spacing: 1px;
 }
 #sobremi .sobremi p{
-    font-size: 14px;
+    font-size: 17px;
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
@@ -136,7 +149,7 @@
     font-size: 20px;
     font-family: 'Belanosima', sans-serif;
     font-weight: 200;
-    text-align: center;
+    text-align: center; 
     margin-left: 200px;
  }
 

@@ -1,4 +1,6 @@
 <app-header></app-header>
+<app-modal [data]="selectedItem"></app-modal>
+
 <div class="content">
    <div class="carrusel mt-5">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -26,15 +28,32 @@
 </div>
 
 
+<div class="titulo-tratamiento">
+  <h3>Tratamientos</h3>
+</div>
+
+
 
 <div class="grupo mt-4" id="tratamiento">
+  
+    <div class="card col-md-6 col-sm-6" style="width: 18rem; ">
+      <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <button (click)="setSelectedItem({title: 'Peeling', content: 'Esto es un Peeling'})">Leer mas</button>
+  </div>
+</div>
 
-  <div class="card col-md-6 col-sm-6" style="width: 18rem; ">
-    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+
+<div class="card col-md-6 col-sm-6" style="width: 18rem; ">
+  <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">Card title</h5>
     <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <button (click)="setSelectedItem({title: 'Limpieza profunda', content: 'Esto es un limpieza'})">Leer mas</button>
   </div>
 </div>
 <div class="card col-md-6 col-sm-6" style="width: 18rem; ">
@@ -43,6 +62,7 @@
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <button (click)="setSelectedItem({title: 'Limpieza profunda', content: 'Esto es un limpieza'})">Leer mas</button>
   </div>
 </div>
 <div class="card col-md-6 col-sm-6" style="width: 18rem; ">
@@ -51,14 +71,7 @@
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-  </div>
-</div>
-<div class="card col-md-6 col-sm-6" style="width: 18rem; ">
-  <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title text-center">Card title</h5>
-    <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <button (click)="setSelectedItem({title: 'Limpieza profunda', content: 'Esto es un limpieza'})">Leer mas</button>
   </div>
 </div>
 </div>
