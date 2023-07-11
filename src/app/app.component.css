@@ -11,7 +11,7 @@
 
 .card:hover {
     box-shadow: 5px 5px 20 px rgba(0,0,0,0.4);
-    transform: translateY(-4%);
+    transform: translateY(-3%);
 }
 
 
@@ -44,9 +44,11 @@
     margin-top: 3rem;
     margin-bottom: 50px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .tituloproducto h2 {
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
@@ -170,4 +172,20 @@
     display: inline-block;
     margin: 5px;
     -webkit-flow-into: 26px;
+ }
+
+ .leer-mas {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+ }
+
+ .leer-mas:hover {
+    background-color: #0e0d0d;
+    color: #fff;
  }
