@@ -26,3 +26,23 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width:1023px) {
+    .logoysecciones img{
+        display: none;
+    }
+
+    .logoysecciones {
+        width: 100%;
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        text-align: center
+    }
+    .logoysecciones a {
+
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    
+}
+

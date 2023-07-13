@@ -1,8 +1,32 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {  
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 
 .card {
     margin: 20px;
     border-radius: 6px;
-    overflow: hidden; 
+    overflow: hidden;
     background-color: #fff;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
@@ -27,7 +51,7 @@
     margin-bottom: 15px;
 }
 
-.grupo { 
+.grupo {
     display: flex;
     justify-content: space-around;
 }
@@ -60,12 +84,19 @@
 
 .labo1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
 }
 
 .labo2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
+}
+.labo3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 #productos .labo1 {
@@ -75,6 +106,12 @@
 }
 
 #productos .labo2 {
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 200;
+}
+
+#productos .labo3 {
     text-align: center;
     font-family: 'Belanosima', sans-serif;
     font-weight: 200;
@@ -133,15 +170,25 @@
 
 .map-responsive {
 
-    text-align: initial;
-    padding: 40px;
     display: flex;
+    flex-direction: column;
+ }
+
+ .map-responsive p {
+    font-size: 20px;
+    
  }
 
  #contacto {
-    background-color: #eeeded;
+    margin-top: 20px;
+    background-color: #fff;
     display: flex;
+    justify-content: center;
  }
+
+.map-titulo {
+    text-align: center;
+}
 
  .datos {
     margin-top: 50px;
@@ -151,7 +198,7 @@
     font-size: 20px;
     font-family: 'Belanosima', sans-serif;
     font-weight: 200;
-    text-align: center; 
+    text-align: center;
     margin-left: 200px;
  }
 
@@ -188,4 +235,97 @@
  .leer-mas:hover {
     background-color: #0e0d0d;
     color: #fff;
+ }
+
+ @media screen and (max-width:1023px) {
+    .content {
+        display: none;
+    }
+
+    .grupo {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .grupo .card {
+        display: block;
+        margin: auto;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .card h5 {
+        font-weight: bold;
+        font-size: 29px;
+    }
+
+    .grupo img {
+        display: none;
+        height: 150px;
+    }
+
+    .labo1 {
+        height: 350px;
+        width: 570px;
+        display: flex;
+        margin: auto; 
+    }
+    .labo2 {
+        height: 350px;
+        width: 570px;
+        display: flex;
+        margin: auto;
+    }
+    .labo3 {
+        height: 350px;
+        width: 570px;
+        display: flex;
+        margin: auto;
+    }
+    #sobremi {
+        margin-top: 20px;
+        padding: 50px 0;
+        display: block;
+    }
+
+    #sobremi  .contenedor-foto {
+        max-width: 200px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img {
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion {
+        text-align: center;
+    }
+
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #sobremi .sobremi h3 {
+        /* font-size:  25px; */
+        text-align: center;
+    }
+
+    #sobremi .sobremi p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #sobremi .sobremi a {
+        margin: 40px;
+        padding: 10px;
+    }
+    #contacto .datos {
+        display: none;
+    }
+
+    #contacto {
+        display: flex;
+        justify-content: center;
+        background-color: #FFF;
+    }
  }
