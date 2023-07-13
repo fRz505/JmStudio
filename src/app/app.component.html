@@ -1,88 +1,177 @@
 <!-- Boton wpp -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=1134238105&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+/>
+<a
+  href="https://api.whatsapp.com/send?phone=1134238105&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+  class="float"
+  target="_blank"
+>
+  <i class="fa fa-whatsapp my-float"></i>
 </a>
-
-
 
 <app-header></app-header>
 <app-modal [data]="selectedItem"></app-modal>
 
 <div class="content">
-   <div class="carrusel mt-5">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://http2.mlstatic.com/D_NQ_882988-MLA70390413574_072023-OO.webp" class="d-block w-100" alt="..."  height="400px">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/prueba2.webp" class="d-block w-100" alt="..."  height="400px">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carrusel1.jpeg" class="d-block w-100" alt="..."   height="400px">
-          </div>
+  <div class="carrusel mt-5">
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://http2.mlstatic.com/D_NQ_882988-MLA70390413574_072023-OO.webp"
+            class="d-block w-100"
+            alt="..."
+            height="400px"
+          />
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img
+            src="assets/img/prueba2.webp"
+            class="d-block w-100"
+            alt="..."
+            height="400px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/carrusel1.jpeg"
+            class="d-block w-100"
+            alt="..."
+            height="400px"
+          />
+        </div>
       </div>
-   </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 </div>
-
 
 <div class="titulo-tratamiento">
   <h3>Tratamientos</h3>
 </div>
 
-
-
 <div class="grupo mt-4" id="tratamiento">
-  
-    <div class="card col-md-6 col-sm-6" style="width: 18rem; ">
-      <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px;">Peeling</h5>
-        <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-    <!-- <button class="leer-mas"  (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})">Leer más</button> -->
-    <button style="display: block; margin: auto;" (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})" type="button" class="btn btn-outline-secondary">Leer más</button>
+  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+        Peeling
+      </h5>
+      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      <!-- <button class="leer-mas"  (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})">Leer más</button> -->
+      <button
+        style="display: block; margin: auto"
+        (click)="
+          setSelectedItem({
+            title: 'Peeling',
+            content:
+              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
+          })
+        "
+        type="button"
+        class="btn btn-outline-secondary"
+      >
+        Leer más
+      </button>
+    </div>
   </div>
-</div>
 
-
-<div class="card col-md-6 col-sm-6" style="width: 18rem; ">
-  <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px;">Limpieza profunda</h5>
-    <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-    <button style="display: block; margin: auto;" (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})" type="button" class="btn btn-outline-secondary">Leer más</button>
+  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+        Limpieza profunda
+      </h5>
+      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      <button
+        style="display: block; margin: auto"
+        (click)="
+          setSelectedItem({
+            title: 'Peeling',
+            content:
+              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
+          })
+        "
+        type="button"
+        class="btn btn-outline-secondary"
+      >
+        Leer más
+      </button>
+    </div>
   </div>
-</div>
-<div class="card col-md-6 col-sm-6" style="width: 18rem; ">
-  <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px;">Card title</h5>
-    <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-    <button style="display: block; margin: auto;" (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})" type="button" class="btn btn-outline-secondary">Leer más</button>
+  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+        Card title
+      </h5>
+      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      <button
+        style="display: block; margin: auto"
+        (click)="
+          setSelectedItem({
+            title: 'Peeling',
+            content:
+              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
+          })
+        "
+        type="button"
+        class="btn btn-outline-secondary"
+      >
+        Leer más
+      </button>
+    </div>
   </div>
-</div>
-<div class="card col-md-6 col-sm-6" style="width: 18rem; ">
-  <img src="assets/img/logopou2.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px;">Card title</h5>
-    <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-    <button style="display: block; margin: auto;" (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})" type="button" class="btn btn-outline-secondary">Leer más</button>
+  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+        Card title
+      </h5>
+      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      <button
+        style="display: block; margin: auto"
+        (click)="
+          setSelectedItem({
+            title: 'Peeling',
+            content:
+              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
+          })
+        "
+        type="button"
+        class="btn btn-outline-secondary"
+      >
+        Leer más
+      </button>
+    </div>
   </div>
-</div>
 </div>
 
 <div id="productos">
@@ -90,88 +179,65 @@
     <h2>Trabajamos con estos laboratorios:</h2>
   </div>
   <div class="labo1">
+    <div class="card" style="width: 18rem">
+      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="assets/img/exel.webp" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 style="font-size: 2rem; margin-top: 1rem">Exel</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
+    </div>
+  </div>
+  <div class="labo2">
+    <div class="card" style="width: 18rem">
+      <img src="assets/img/idraet.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 style="font-size: 2rem; margin-top: 1rem">Idraet</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
+    </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 style="font-size: 2rem; margin-top: 1rem;">Lidherma</h5>
-      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    <div class="card" style="width: 18rem">
+      <img src="assets/img/idraet.png " class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 style="font-size: 2rem; margin-top: 1.5rem">Garnier</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <img src="assets/img/exel.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 style="font-size: 2rem; margin-top: 1rem;">Exel</h5>
-      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+  <div class="labo3">
+    <div class="card" style="width: 18rem">
+      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
     </div>
-  </div>
-</div>
-<div class="labo2">
-
-  <div class="card" style="width: 18rem;">
-    <img src="assets/img/idraet.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 style="font-size: 2rem; margin-top: 1rem;">Idraet</h5>
-      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    <div class="card" style="width: 18rem">
+      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
     </div>
-  </div>
-  
-  <div class="card" style="width: 18rem;">
-    <img  src="assets/img/idraet.png " class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 style="font-size: 2rem; margin-top: 1.5rem;">Garnier</h5>
-      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    </div>
-  </div>
-</div>
-    <div class="labo3">
-  <div class="card" style="width: 18rem;">
-    <img src="assets/img/lidherma.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 style="font-size: 2rem; margin-top: 1rem;">Lidherma</h5>
-      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="assets/img/lidherma.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 style="font-size: 2rem; margin-top: 1rem;">Lidherma</h5>
-      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-    </div>
-  </div>
   </div>
 </div>
 <div id="sobremi">
   <div class="contenedor-foto">
-      <img src="assets/img/pandi.jpg" alt="">
+    <img src="assets/img/pandi.jpg" alt="" />
   </div>
   <div class="sobremi">
-      <p class="titulo-seccion">Sobre Mi</p>
-      <h2>Hola, soy <span>Joaquin Marquillas</span></h2>
-      <h3>Cosmetologo</h3>
-      <p>Estudiante de programacion frontend angular en Coderhouse. 
-      </p>
+    <p class="titulo-seccion">Sobre Mi</p>
+    <h2>Hola, soy <span>Joaquin Marquillas</span></h2>
+    <h3>Cosmetologo</h3>
+    <p>Estudiante de programacion frontend angular en Coderhouse.</p>
   </div>
 </div>
 
-<div id="contacto">
- 
-  <div class="map-responsive">
-    <p>Como llegar ⬇️</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.32467227212!2d-65.41195287443756!3d-24.784333695918832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3beab197a71%3A0xebaad3e6b758dc91!2sBartolom%C3%A9%20Mitre%20496%2C%20A4400%20Salta!5e0!3m2!1ses-419!2sar!4v1689014886385!5m2!1ses-419!2sar" width="250" height="200" style="border:0; border-radius: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <!-- <div class="datos">
-      <p>Horarios: Lunes a Viernes: 15:00 a 21:00</p>
-      <p>Codigo postal: 4400</p>
-      <p>Provincia: Salta</p>
-    </div> -->
-    <div class="redes">
-      <a href="https://www.instagram.com/jm.skinstudio/" target="_blank"><i
-        class="fa-brands fa-instagram fa-3x"></i></a>
-        <!-- <a href="#" target="_blank"><i
-          class="fa-brands fa-facebook fa-3x"></i></a> -->
-          <a href="https://api.whatsapp.com/send?phone=1134238105&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202" target="_blank"><i
-            class="fa-brands fa-whatsapp fa-3x"></i></a>
-    </div>
 
-</div>

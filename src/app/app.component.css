@@ -168,58 +168,6 @@
 }
 
 
-.map-responsive {
-
-    display: flex;
-    flex-direction: column;
- }
-
- .map-responsive p {
-    font-size: 20px;
-    
- }
-
- #contacto {
-    margin-top: 20px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
- }
-
-.map-titulo {
-    text-align: center;
-}
-
- .datos {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 20px;
-    font-family: 'Belanosima', sans-serif;
-    font-weight: 200;
-    text-align: center;
-    margin-left: 200px;
- }
-
- .redes {
-    margin: 110px;
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
- }
-
- .redes img {
-    width: 50px;
- }
-
- .redes a {
-    text-decoration: none;
-    color: #0e0d0d;
-    display: inline-block;
-    margin: 5px;
-    -webkit-flow-into: 26px;
- }
 
  .leer-mas {
     display: block;
