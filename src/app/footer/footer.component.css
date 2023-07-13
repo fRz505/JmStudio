@@ -1,53 +1,62 @@
-
 .map-responsive {
-
-    display: flex;
-    flex-direction: column;
- }
-
- .map-responsive p {
-    font-size: 20px;
-    
- }
-
- #contacto {
-    margin-top: 20px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
- }
-
-.map-titulo {
-    text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
- .datos {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 20px;
-    font-family: 'Belanosima', sans-serif;
-    font-weight: 200;
-    text-align: center;
-    margin-left: 200px;
- }
+.map-responsive p {
+  font-size: 20px;
+}
 
- .redes {
-    margin: 110px;
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
- }
+#contacto {
+  padding-top: 20px;
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-around ;
+  padding-bottom: 20px;
+  /* color: #fff; */
+  background-color: #f99aaa;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
 
- .redes img {
-    width: 50px;
- }
+.map-titulo {
+  text-align: center;
+}
 
- .redes a {
-    text-decoration: none;
-    color: #0e0d0d;
-    display: inline-block;
-    margin: 5px;
-    -webkit-flow-into: 26px;
- }
+.datos {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  margin-left: 200px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.redes img {
+  width: 50px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #0e0d0d;
+  display: inline-block;
+  margin: 5px;
+  -webkit-flow-into: 26px;
+}
+
+@media screen and (max-width:1023px) {
+  iframe {
+   width: 170px;
+   height: 120px;
+  }
+}

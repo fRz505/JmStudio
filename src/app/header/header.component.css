@@ -1,4 +1,7 @@
-
+.header {
+    background-color: #f99aaa;
+    
+}
 
 .header .logoysecciones  a:link, a:visited {
     text-decoration: none;    
@@ -11,6 +14,7 @@
     /* border-bottom: solid 1px black; */
     display: flex;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .logoysecciones img {

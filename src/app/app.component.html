@@ -1,5 +1,5 @@
 <!-- Boton wpp -->
-<link
+<!-- <link
   rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 />
@@ -9,7 +9,7 @@
   target="_blank"
 >
   <i class="fa fa-whatsapp my-float"></i>
-</a>
+</a> -->
 
 <app-header></app-header>
 <app-modal [data]="selectedItem"></app-modal>
@@ -69,20 +69,18 @@
   </div>
 </div>
 
+
+
 <div class="titulo-tratamiento">
   <h3>Tratamientos</h3>
 </div>
-
 <div class="grupo mt-4" id="tratamiento">
-  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+  <div class="card item-t">
     <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
         Peeling
       </h5>
-      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-      <!-- <button class="leer-mas"  (click)="setSelectedItem({title: 'Peeling', content: 'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'})">Leer más</button> -->
       <button
         style="display: block; margin: auto"
         (click)="
@@ -100,7 +98,7 @@
     </div>
   </div>
 
-  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+  <div class="card item-t">
     <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
@@ -124,7 +122,7 @@
       </button>
     </div>
   </div>
-  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+  <div class="card item-t">
     <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
@@ -148,7 +146,7 @@
       </button>
     </div>
   </div>
-  <div class="card col-md-6 col-sm-6" style="width: 18rem">
+  <div class="card item-t">
     <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
@@ -174,60 +172,50 @@
   </div>
 </div>
 
+<div class="tituloproducto">
+  <h2>Trabajamos con estos laboratorios:</h2>
+</div>
 <div id="productos">
-  <div class="tituloproducto">
-    <h2>Trabajamos con estos laboratorios:</h2>
-  </div>
-  <div class="labo1">
-    <div class="card" style="width: 18rem">
+  <div class="labo">
+    <div class="card">
       <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
-        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
       </div>
     </div>
-    <div class="card" style="width: 18rem">
+    <div class="card">
       <img src="assets/img/exel.webp" class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Exel</h5>
-        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
       </div>
     </div>
   </div>
-  <div class="labo2">
-    <div class="card" style="width: 18rem">
+  <div class="labo">
+    <div class="card">
       <img src="assets/img/idraet.png" class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Idraet</h5>
-        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
       </div>
     </div>
 
-    <div class="card" style="width: 18rem">
+    <div class="card">
       <img src="assets/img/idraet.png " class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1.5rem">Garnier</h5>
-        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
       </div>
     </div>
   </div>
-  <div class="labo3">
-    <div class="card" style="width: 18rem">
+  <div class="labo">
+    <div class="card">
       <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
-        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
       </div>
     </div>
-    <div class="card" style="width: 18rem">
-      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
-        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      </div>
-    </div>
+  
   </div>
 </div>
+
 <div id="sobremi">
   <div class="contenedor-foto">
     <img src="assets/img/pandi.jpg" alt="" />
@@ -240,4 +228,5 @@
   </div>
 </div>
 
+<app-footer></app-footer>
 
