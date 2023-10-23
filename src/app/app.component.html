@@ -14,219 +14,245 @@
 <app-header></app-header>
 <app-modal [data]="selectedItem"></app-modal>
 
-<div class="content">
-  <div class="carrusel mt-5">
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://http2.mlstatic.com/D_NQ_882988-MLA70390413574_072023-OO.webp"
-            class="d-block w-100"
-            alt="..."
-            height="400px"
-          />
+<div class="mt-3 body-content">
+  <div class="content">
+    <div class="carrusel">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/1.png"
+              class="d-block w-100"
+              alt="..."
+              height="400px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/2.png"
+              class="d-block w-100"
+              alt="..."
+              height="400px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/3.png"
+              class="d-block w-100"
+              alt="..."
+              height="400px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/4.png"
+              class="d-block w-100"
+              alt="..."
+              height="400px"
+            />
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="assets/img/prueba2.webp"
-            class="d-block w-100"
-            alt="..."
-            height="400px"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/img/carrusel1.jpeg"
-            class="d-block w-100"
-            alt="..."
-            height="400px"
-          />
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="titulo-tratamiento">
-  <h3>Tratamientos</h3>
-</div>
-<div class="grupo mt-4" id="tratamiento">
-  <div class="card item-t">
-    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
-        Peeling
-      </h5>
-      <button
-        style="display: block; margin: auto"
-        (click)="
-          setSelectedItem({
-            title: 'Peeling',
-            content:
-              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
-          })
-        "
-        type="button"
-        class="btn btn-outline-secondary"
-      >
-        Leer más
-      </button>
     </div>
   </div>
 
-  <div class="card item-t">
-    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
-        Limpieza profunda
-      </h5>
-      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-      <button
-        style="display: block; margin: auto"
-        (click)="
-          setSelectedItem({
-            title: 'Peeling',
-            content:
-              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
-          })
-        "
-        type="button"
-        class="btn btn-outline-secondary"
-      >
-        Leer más
-      </button>
-    </div>
-  </div>
-  <div class="card item-t">
-    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
-        Card title
-      </h5>
-      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-      <button
-        style="display: block; margin: auto"
-        (click)="
-          setSelectedItem({
-            title: 'Peeling',
-            content:
-              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
-          })
-        "
-        type="button"
-        class="btn btn-outline-secondary"
-      >
-        Leer más
-      </button>
-    </div>
-  </div>
-  <div class="card item-t">
-    <img src="assets/img/logopou2.jfif" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
-        Card title
-      </h5>
-      <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-      <button
-        style="display: block; margin: auto"
-        (click)="
-          setSelectedItem({
-            title: 'Peeling',
-            content:
-              'Un peeling es un proceso de exfoliación de la piel, que consiste en eliminar las células muertas de las capas superficiales de la piel, que en muchos casos contienen melanina y provoca que se vean manchas en la piel.'
-          })
-        "
-        type="button"
-        class="btn btn-outline-secondary"
-      >
-        Leer más
-      </button>
-    </div>
-  </div>
-</div>
 
-<div class="tituloproducto">
-  <h2>Trabajamos con estos laboratorios:</h2>
-</div>
-<div id="productos">
-  <div class="labo">
+
+  <div class="titulo-tratamiento">
+    <h3>Tratamientos</h3>
+  </div>
+  <div class="grupo mt-4 " id="tratamiento">
+    
+    <div class="card item-t">
+      <img src="assets/img/limpieza.jfif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+          Limpieza profunda
+        </h5>
+        <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <button
+          style="display: block; margin: auto"
+          (click)="
+            setSelectedItem({
+              title: 'Limpieza Profunda',
+              content:
+                'La limpieza facial profunda es el primer paso fundamental en un tratamiento. Durante una sesión de limpieza facial profunda, se escogen los métodos y técnicas de higiene según el tipo de piel del paciente. En la misma se utiliza punta de diamante y/o espátula ultrasónica, para afinar el estráto córneo (la capa más superficial de la piel) y devolver así la permeabilidad cutánea.
+
+                Ideal para:
+                - Todo tipo de pieles.'
+            })
+          "
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Leer más
+        </button>
+      </div>
+    </div>
+    <div class="card item-t">
+      <img src="assets/img/peeling.jfif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+          Peeling
+        </h5>
+        <button
+          style="display: block; margin: auto"
+          (click)="
+            setSelectedItem({
+              title: 'Peeling',
+              content:
+                'El peeling químico, es un método mediante el cual se utilizan distintos agentes quimio-exfoliantes para afinar la piel. Existen distintos tipos de peeling para todas las necesidades.
+
+                Ideal para:
+                - Acné
+                - Manchas
+                - Arrugas 
+                - Secuelas de acné'
+            })
+          "
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Leer más
+        </button>
+      </div>
+    </div>
+
+  
+    <div class="card item-t">
+      <img src="assets/img/dermaplaning.jfif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+          Dermaplaning
+        </h5>
+        <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <button
+          style="display: block; margin: auto"
+          (click)="
+            setSelectedItem({
+              title: 'Dermaplaning',
+              content:
+                'El dermaplaning es una técnica que se lleva a cabo con un bisturí quirúrgico estéril. Consiste en una exfoliación superficial de la piel, con el objetivo de mejorar la calidad de la misma, otorgando homogeneidad, suavidad y luminosidad al rostro.
+
+                Ideal Para:
+                - Pieles Involutivas
+                - Opacas
+                - Con exceso de vello facial'
+            })
+          "
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Leer más
+        </button>
+      </div>
+    </div>
+    <div class="card item-t">
+      <img src="assets/img/dermapen.jfif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title text-center mb-5 mt-4" style="font-size: 23px">
+          Dermapen
+        </h5>
+        <!-- <p class="card-text text-center mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <button
+          style="display: block; margin: auto"
+          (click)="
+            setSelectedItem({
+              title: 'Dermapen',
+              content:
+                'El Dermapen es una técnica que se realiza
+                con un dispositivo que posee micro agujas
+                Estas agujas entran y salen sobre la
+                superficie de la piel generando canales
+                para introducir un activo específico. Es
+                indoloro y no provoca sangrado ni efectos
+                secundarios.
+                
+                Ideal para:
+                - Cicatrices de acné
+                - Manchas
+                - Arrugas'
+            })
+          "
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Leer más
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tituloproducto">
+    <h2>Trabajamos con estos laboratorios:</h2>
+  </div>
+  <div id="productos">
+    
     <div class="card">
-      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
+      <img src="assets/img/lidherma.jpg" class="img-card" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
       </div>
     </div>
     <div class="card">
-      <img src="assets/img/exel.webp" class="card-img-top" alt="..." />
+      <img src="assets/img/exel.webp" class="img-card" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Exel</h5>
       </div>
     </div>
-  </div>
-  <div class="labo">
+
     <div class="card">
-      <img src="assets/img/idraet.png" class="card-img-top" alt="..." />
+      <img src="assets/img/idraet.png" class="img-card" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1rem">Idraet</h5>
       </div>
     </div>
 
-    <div class="card">
-      <img src="assets/img/idraet.png " class="card-img-top" alt="..." />
+    <!-- <div class="card">
+      <img src="assets/img/garnier.png " class="img-card" alt="..." />
       <div class="card-body">
         <h5 style="font-size: 2rem; margin-top: 1.5rem">Garnier</h5>
       </div>
-    </div>
+    </div>   -->
   </div>
-  <div class="labo">
-    <div class="card">
-      <img src="assets/img/lidherma.jpg" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 style="font-size: 2rem; margin-top: 1rem">Lidherma</h5>
-      </div>
-    </div>
-  
-  </div>
-</div>
 
-<div id="sobremi">
-  <div class="contenedor-foto">
-    <img src="assets/img/pandi.jpg" alt="" />
+  <div id="sobremi">
+    <div class="contenedor-foto">
+      <img src="assets/img/pandi.jpg" alt="" />
+    </div>
+    <div class="sobremi">
+      <p class="titulo-seccion text-center">Sobre Mi</p>
+      <h2>Hola, soy <span>Joaquin Marquillas</span></h2>
+      <h3>Cosmetólogo</h3>
+      <p>Profesional de la estética & eyebrow artist</p>
+    </div>
   </div>
-  <div class="sobremi">
-    <p class="titulo-seccion">Sobre Mi</p>
-    <h2>Hola, soy <span>Joaquin Marquillas</span></h2>
-    <h3>Cosmetologo</h3>
-    <p>Estudiante de programacion frontend angular en Coderhouse.</p>
-  </div>
-</div>
+</div>  
 
 <app-footer></app-footer>
 
